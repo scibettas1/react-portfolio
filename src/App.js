@@ -1,28 +1,21 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Nav from "./components/Nav";
+import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
-import Web from "./components/pages/Web";
 import Graphic from "./components/pages/Graphic";
+import Web from "./components/pages/Web";
 
 function App() {
   return (
     <Router>
       <div>
-        <Nav />
-        <Route exact path={["/", "/home"]}>
-          <Home />
-        </Route>
-        <Route exact path="/web">
-          <Web />
-        </Route>
-        <Route exact path="/graphic">
-          <Graphic />
-        </Route>
+        <NavTabs />
+        <Route exact path={["/", "/home"]} component={Home} />
+        <Route exact path="/web" component={Web} />
+        <Route exact path="/graphic" component={Graphic} />
       </div>
     </Router>
   );
 }
 
 export default App;
-
