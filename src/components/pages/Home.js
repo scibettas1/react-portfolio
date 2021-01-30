@@ -1,19 +1,74 @@
 import React from "react";
+import "../../styles/style.css"
 
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+      <div class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7"></div>
+            <div class="col-md-5">
+              <img src="images/IMG_0030.JPG" class="img-fluid rounded-circle profile-margin" alt="profile photo of sam scibetta"/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+              <h1>Sam Scibetta<br />
+                Graphic &amp; Web<br />
+                Designer</h1>
+            </div>
+
+            <div class="col-md-5">
+              <p>Sam Scibetta graduated from William Paterson University with a BFA in Fine Art, and also attended the Art
+                Institute of Pittsburgh.
+                She is currenlty studying full-stack web development at Rutgers Coding Bootcamp.
+                Sam has explored various mediums including graphic &amp; web design, musical performance &amp; composition, and
+                creative writing.
+                She has 10+ years of graphic design experience, 15 years of classical
+                voice training, and is the current singer for the symphonic metal band, Infinitus Mortus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info1">
+        <div class="container">
+          <h3>WEB DEVELOPMENT</h3>
+          <div class="row">
+            <div class="col-md-5">
+              <h4>HTML | CSS | JAVASCRIPT | ANIMATIONS | UI/UX | API | SQL | MONGODB | REACT | HEROKU | CPANEL | GIT |
+                GITHUB | WORDPRESS</h4>
+          </div>
+
+          <div class="col-md-7">
+              <img src="images/placholder350.jpg" class="rounded img-thumbnail thumb"/>
+              <img src="images/placholder350.jpg" class="rounded img-thumbnail thumb"/>
+              <img src="images/placholder350.jpg" class="rounded img-thumbnail thumb"/>
+              <img src="images/placholder350.jpg" class="rounded img-thumbnail thumb"/>
+              <button type="button" class="btn view">View More</button>
+            </div>
+        </div>
+      </div>
+
+      <div class="info2">
+        <div class="container">
+          <h2>GRAPHIC DESIGN</h2>
+          <div class="row">
+            <div class="col-md-5">
+              <h5>PHOTOSHOP | ADOBE ILLUSTRATOR | INDESIGN | TYPOGRAPHY</h5>
+            </div>
+
+            <div class="col-md-7">
+              <img src="images/placholder350.jpg" class="rounded img-thumbnail thumb"/>
+              <img src="images/placholder350.jpg" class="rounded img-thumbnail thumb"/>
+              <img src="images/placholder350.jpg" class="rounded img-thumbnail thumb"/>
+              <img src="images/placholder350.jpg" class="rounded img-thumbnail thumb"/>
+              <button type="button" class="btn view">View More</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,8 +1,7 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NavTabs() {
-  const location = useLocation();
 
   return (
     <div><a href="#offcanvas-slide" class="uk-button uk-button-default" uk-toggle>Menu</a>
