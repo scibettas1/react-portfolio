@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/style.css"
 
-function Banner() {
+function Banner(props) {
   return (
     <div>
       <div className="banner">
         <div className="container">
           <div className="row">
-            
+            <h1>{props.pageTitle}</h1>
           </div>
         </div>
       </div>

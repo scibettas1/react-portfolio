@@ -1,9 +1,9 @@
-p, h1, h2, h3, h4, h5 {
+p, h1, h2, h3, h4, h5, .view {
     font-family: 'Roboto Mono', monospace;
-}
-
-p, h1, h2, h5 {
     color: #FAEBD7;
+}
+h3, h4 {
+    color: #2f4f4f;
 }
 
 h1 {
@@ -15,9 +15,6 @@ h3 {
     font-weight: 900!important;
     font-size: 120px!important;
     -webkit-text-fill-color: transparent!important;
-}
-
-h2 {
     -webkit-text-stroke: 5px #FAEBD7;
 }
 
@@ -25,16 +22,12 @@ h3 {
     -webkit-text-stroke: 5px #2f4f4f;
 }
 
-h3, h4 {
-    color: #2f4f4f;
-}
 /* bootstrap will overide the custom css without the !important */
 h4,
 h5 {
     margin: 0px 100px 50px 100px;
     font-size: 20px!important;
 }
-
 
 .row {
     padding-bottom: 48px;
@@ -55,20 +48,18 @@ h5 {
     min-height: 900px;
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 .banner {
-    min-height: 500px;
+    min-height: 300px;
 }
-
-.info2 {
-    min-height: 500px;
-    background: #2f4f4f;
-}
-
-.info1 {
+.info1, .info2 {
     min-height: 500px;
     background: #d6cea6;
+}
+.info2 {
+    background: #2f4f4f;
 }
 
 .profile-margin {
@@ -94,7 +85,6 @@ h5 {
     color: #000;
     background-color: #FAEBD7;
     border-color: #FAEBD7;
-    font-family: 'Roboto Mono', monospace;
     margin: 10px;
 }
 

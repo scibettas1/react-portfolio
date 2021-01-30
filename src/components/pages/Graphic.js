@@ -1,10 +1,12 @@
 import React from "react";
 import Banner from "../Banner"
 
+var pageTitle = "Graphic Design Portfolio"
+
 function Graphic() {
   return (
     <div>
-      <Banner />
+      <Banner pageTitle="Graphic Design Portfolio"/>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import Banner from "../Banner"
 function Web() {
   return (
     <div>
-      <Banner />
+      <Banner pageTitle="Web Development Portfolio"/>
     </div>
   );
 }
