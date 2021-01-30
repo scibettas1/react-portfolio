@@ -1,3 +1,13 @@
+body, .info1 {
+    background: #d6cea6!important;
+}
+.info1, .info2 {
+    min-height: 500px;
+}
+.info2 {
+    background: #2f4f4f;
+}
+
 p, h1, h2, h3, h4, h5, .view {
     font-family: 'Roboto Mono', monospace;
     color: #FAEBD7;
@@ -16,6 +26,9 @@ h3 {
     font-size: 120px!important;
     -webkit-text-fill-color: transparent!important;
     -webkit-text-stroke: 5px #FAEBD7;
+    /* this overlap is intentional */
+    position:relative;
+    bottom: 40px;
 }
 
 h3 {
@@ -54,17 +67,17 @@ h5 {
 .banner {
     min-height: 300px;
 }
-.info1, .info2 {
-    min-height: 500px;
-    background: #d6cea6;
-}
-.info2 {
-    background: #2f4f4f;
+.pageTitle {
+    margin-top: 220px;
 }
 
-.profile-margin {
+/* bootstrap will overide the custom css without the !important */
+.profile-img {
+    max-width: 200px!important;
+    width: 100%!important;
+    height: auto;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -77,14 +90,14 @@ h5 {
     object-fit: cover;
     vertical-align: middle;
     margin: 10px;
-    width: 150px;
-    height: 150px
+    width: 130px;
+    height: 130px!important;;
 }
-
+/* bootstrap will overide the custom css without the !important */
 .view {
     color: #000;
-    background-color: #FAEBD7;
-    border-color: #FAEBD7;
+    background-color: #FAEBD7!important;
+    border: 1px solid #faead7!important;
     margin: 10px;
 }
 
@@ -92,9 +105,10 @@ h5 {
 
     h2,
     h3 {
-      font-size: 53px;
-      font-weight: 500;
-      -webkit-text-stroke: 3px;
+      font-size: 53px!important;
+      font-weight: 500!important;
+      -webkit-text-stroke: 3px!important;
+      bottom: 20px!important;
     }
 
     h4,

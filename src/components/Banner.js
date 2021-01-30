@@ -7,7 +7,7 @@ function Banner(props) {
       <div className="banner">
         <div className="container">
           <div className="row">
-            <h1>{props.pageTitle}</h1>
+            <h1 className="pageTitle">{props.pageTitle}</h1>
           </div>
         </div>
       </div>

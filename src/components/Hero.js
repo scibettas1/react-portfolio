@@ -11,7 +11,7 @@ function Hero() {
           <div className="row">
             <div className="col-md-7"></div>
             <div className="col-md-5">
-              <img src={profile} className="img-fluid rounded-circle profile-margin" alt="profile sam scibetta"/>
+              <img src={profile} className="img-fluid rounded-circle profile-img" alt="profile sam scibetta"/>
             </div>
           </div>
           <div className="row">

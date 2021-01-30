@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/style.css"
 import placeholder from "../images/placholder350.jpg"
+import { Link } from "react-router-dom";
 
 function WebSection() {
   return (
@@ -10,8 +11,8 @@ function WebSection() {
           <h3>WEB DEVELOPMENT</h3>
           <div className="row">
             <div className="col-md-5">
-              <h4>HTML | CSS | JAVASCRIPT | ANIMATIONS | UI/UX | API | SQL | MONGODB | REACT | HEROKU | CPANEL | GIT |
-                GITHUB | WORDPRESS</h4>
+              <h4>SKILLS: HTML &middot; CSS &middot; JAVASCRIPT &middot; ANIMATIONS &middot; UI/UX &middot; API &middot; SQL &middot; MONGODB &middot; REACT &middot; HEROKU &middot; CPANEL &middot; GIT &middot;
+                GITHUB &middot; WORDPRESS</h4>
           </div>
 
           <div className="col-md-7">
@@ -19,7 +20,7 @@ function WebSection() {
               <img src={placeholder} className="rounded img-thumbnail thumb" alt=""/>
               <img src={placeholder} className="rounded img-thumbnail thumb" alt=""/>
               <img src={placeholder} className="rounded img-thumbnail thumb" alt=""/>
-              <button type="button" className="btn view">View More</button>
+              <Link to="/web"><button type="button" className="btn view">View More</button></Link>
             </div>
         </div>
       </div>
