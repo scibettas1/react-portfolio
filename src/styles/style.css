@@ -1,107 +1,104 @@
-p {
-    color: #FAEBD7;
+p, h1, h2, h3, h4, h5 {
     font-family: 'Roboto Mono', monospace;
-  }
+}
 
-  h1 {
+p, h1, h2, h5 {
     color: #FAEBD7;
-    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
     font-size: 60px;
-  }
+}
+/* bootstrap will overide the custom css without the !important */
+h2,
+h3 {
+    font-weight: 900!important;
+    font-size: 120px!important;
+    -webkit-text-fill-color: transparent!important;
+}
 
-  h2,
-  h3 {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 900;
-    font-size: 120px;
-    -webkit-text-fill-color: transparent;
-  }
-
-  h2 {
-    color: #FAEBD7;
+h2 {
     -webkit-text-stroke: 5px #FAEBD7;
-  }
+}
 
-  h3 {
-    color: #2f4f4f;
+h3 {
     -webkit-text-stroke: 5px #2f4f4f;
-  }
+}
 
-  h4,
-  h5 {
-    font-family: 'Roboto Mono', monospace;
-    margin: 0px 100px 50px 100px;
-    font-size: 20px;
-  }
-
-  h4 {
+h3, h4 {
     color: #2f4f4f;
-  }
+}
+/* bootstrap will overide the custom css without the !important */
+h4,
+h5 {
+    margin: 0px 100px 50px 100px;
+    font-size: 20px!important;
+}
 
-  h5 {
-    color: #FAEBD7;
-  }
 
-  .row {
+.row {
     padding-bottom: 48px;
-  }
+}
 
-  .uk-button-default {
+.uk-button-default {
     background-color: transparent;
     color: #333;
     border: none;
     position: fixed;
-  }
+}
 
-  .uk-offcanvas-bar {
+.uk-offcanvas-bar {
     background: #2f4f4f;
-  }
+}
 
-  .hero {
+.hero, .banner {
     min-height: 900px;
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+.banner {
+    min-height: 500px;
+}
 
-  .info2 {
+.info2 {
     min-height: 500px;
     background: #2f4f4f;
-  }
+}
 
-  .info1 {
+.info1 {
     min-height: 500px;
-    background: #DAA520;
-  }
+    background: #d6cea6;
+}
 
-  .profile-margin {
+.profile-margin {
     margin-top: 100px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  .img-thumbnail {
+.img-thumbnail {
     border: none;
-  }
+}
 
-  .thumb {
+.thumb {
     object-fit: cover;
     vertical-align: middle;
     margin: 10px;
     width: 150px;
     height: 150px
-  }
+}
 
-  .view {
+.view {
     color: #000;
     background-color: #FAEBD7;
     border-color: #FAEBD7;
     font-family: 'Roboto Mono', monospace;
     margin: 10px;
-  }
+}
 
-  @media (max-width: 576px) {
+@media (max-width: 576px) {
 
     h2,
     h3 {
@@ -114,4 +111,4 @@ p {
     h5 {
       margin: 0px 20px 50px 20px;
     }
-  }
+}
