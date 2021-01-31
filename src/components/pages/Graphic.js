@@ -9,7 +9,7 @@ function Graphic() {
       <Banner pageTitle="Graphic Design Portfolio" />
       <div className="container">
         <div class="row row-padding">
-          <PortfolioItem image={portfolio[0].image} target={portfolio[0].target}
+          <PortfolioItem image="../../images/crossroads7-6-19.jpg" target={portfolio[0].target}
             alt={portfolio[0].alt} description={portfolio[0].description} />
           <PortfolioItem image={portfolio[0].image} target={portfolio[0].target}
             alt={portfolio[0].alt} description={portfolio[0].description} />

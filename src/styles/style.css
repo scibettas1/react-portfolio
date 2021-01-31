@@ -8,7 +8,7 @@ body, .info1 {
     background: #2f4f4f;
 }
 
-p, h1, h2, h3, h4, h5, .view {
+p, h1, h2, h3, h4, h5, .view-btn {
     font-family: 'Roboto Mono', monospace;
     color: #FAEBD7;
 }
@@ -24,11 +24,12 @@ h2,
 h3 {
     font-weight: 900!important;
     font-size: 120px!important;
+    line-height: 120px!important;
     -webkit-text-fill-color: transparent!important;
     -webkit-text-stroke: 5px #FAEBD7;
     /* this overlap is intentional */
     position:relative;
-    bottom: 40px;
+    bottom: 30px;
 }
 
 h3 {
@@ -45,18 +46,6 @@ h5 {
 .row {
     padding-bottom: 48px;
 }
-
-.uk-button-default {
-    background-color: transparent;
-    color: #333;
-    border: none;
-    position: fixed;
-}
-
-.uk-offcanvas-bar {
-    background: #2f4f4f;
-}
-
 .hero, .banner {
     min-height: 900px;
     background-image: url(../images/hero.jpg);
@@ -67,14 +56,19 @@ h5 {
 .banner {
     min-height: 300px;
 }
+.social-icon {
+    height: 40px;
+    width:auto;
+    margin:10px 20px 10px 0px;
+}
+
 .pageTitle {
     margin-top: 220px;
 }
 
-/* bootstrap will overide the custom css without the !important */
 .profile-img {
-    max-width: 200px!important;
-    width: 100%!important;
+    max-width: 200px;
+    width: 100%;
     height: auto;
     margin-top: 100px;
     margin-bottom: 30px;
@@ -82,22 +76,33 @@ h5 {
     margin-right: auto;
 }
 
-.img-thumbnail {
-    border: none;
-}
-
 .thumb {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    max-width: 100%;
     object-fit: cover;
     vertical-align: middle;
     margin: 10px;
     width: 130px;
-    height: 130px!important;;
+    height: 130px;
 }
 /* bootstrap will overide the custom css without the !important */
-.view {
-    color: #000;
-    background-color: #FAEBD7!important;
-    border: 1px solid #faead7!important;
+.view-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color: #FAEBD7;
+    border: 1px solid #faead7;
     margin: 10px;
 }
 
@@ -106,9 +111,10 @@ h5 {
     h2,
     h3 {
       font-size: 53px!important;
+      line-height: 53px!important;
       font-weight: 500!important;
       -webkit-text-stroke: 3px!important;
-      bottom: 20px!important;
+      bottom: 12px!important;
     }
 
     h4,

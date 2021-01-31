@@ -2,9 +2,10 @@ import React from "react";
 import "../styles/style.css"
 
 function PortfolioItem(props) {
+    
     return (
         <div>
-            <img src={props.image} data-toggle="modal" data-target={"#" + props.target} alt={props.alt} className="rounded img-thumbnail thumb" />
+            <img src={props.image} data-toggle="modal" data-target={"#" + props.target} alt={props.alt} className="rounded thumb" />
             <div className="modal fade" id={props.target} tabindex="-1" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">

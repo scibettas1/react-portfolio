@@ -18,11 +18,11 @@ function GraphicSection() {
             </div>
 
             <div className="col-md-7">
-              <img src={img1} className="rounded img-thumbnail thumb" alt=""/>
-              <img src={img2} className="rounded img-thumbnail thumb" alt=""/>
-              <img src={img3} className="rounded img-thumbnail thumb" alt=""/>
-              <img src={img4} className="rounded img-thumbnail thumb" alt=""/>
-              <Link to="/graphic"><button type="button" className="btn view">View More</button></Link>
+              <img src={img1} className="rounded thumb" alt=""/>
+              <img src={img2} className="rounded thumb" alt=""/>
+              <img src={img3} className="rounded thumb" alt=""/>
+              <img src={img4} className="rounded thumb" alt=""/>
+              <Link to="/graphic"><button type="button" className="view-btn">View More</button></Link>
             </div>
           </div>
         </div>

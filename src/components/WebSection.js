@@ -16,11 +16,11 @@ function WebSection() {
           </div>
 
           <div className="col-md-7">
-              <img src={placeholder} className="rounded img-thumbnail thumb" alt=""/>
-              <img src={placeholder} className="rounded img-thumbnail thumb" alt=""/>
-              <img src={placeholder} className="rounded img-thumbnail thumb" alt=""/>
-              <img src={placeholder} className="rounded img-thumbnail thumb" alt=""/>
-              <Link to="/web"><button type="button" className="btn view">View More</button></Link>
+              <img src={placeholder} className="rounded thumb" alt=""/>
+              <img src={placeholder} className="rounded thumb" alt=""/>
+              <img src={placeholder} className="rounded thumb" alt=""/>
+              <img src={placeholder} className="rounded thumb" alt=""/>
+              <Link to="/web"><button type="button" className="view-btn">View More</button></Link>
             </div>
         </div>
       </div>
