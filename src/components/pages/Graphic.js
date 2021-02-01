@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "../Banner"
 import PortfolioItem from "../PortfolioItem";
+
+// ----------------------Images---------------------------------
 import crossroads7619 from "../../images/crossroads7-6-19.jpg";
 import dingbatz102515 from "../../images/dingbatz_10_25_15.jpg";
 import upcomingShows  from "../../images/upcoming-shows.jpg";
@@ -11,6 +13,7 @@ import endingDG from "../../images/ending_dan_gordon_band_logo.jpg";
 import song from "../../images/song_interpretation.jpg";
 import deadPonies from "../../images/the_dead_ponies_band_logo.jpg";
 import waverlyMenu from "../../images/Waverly_Menu.jpg";
+// -------------------------------------------------------------
 
 
 function Graphic() {

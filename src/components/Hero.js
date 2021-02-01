@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/style.css"
+
+// ----------------------Images---------------------------
 import profile from "../images/profile.jpg";
 import facebook from "../images/facebook.png";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
-import { Link } from "react-router-dom"
+// -------------------------------------------------------
 
 
 function Hero() {

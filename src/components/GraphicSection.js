@@ -1,10 +1,14 @@
 import React from "react";
 import "../styles/style.css";
-import img1 from "../images/crossroads7-6-19.jpg";
-import img2 from "../images/dingbatz_10_25_15.jpg";
-import img3 from "../images/upcoming-shows.jpg";
-import img4 from "../images/12_9_12_henrietta_hudson.jpg";
 import { Link } from "react-router-dom";
+
+// ----------------------Images---------------------------
+import crossroads7619 from "../images/crossroads7-6-19.jpg";
+import dingbatz102515 from "../images/dingbatz_10_25_15.jpg";
+import upcomingShows from "../images/upcoming-shows.jpg";
+import henrietta12912 from "../images/12_9_12_henrietta_hudson.jpg";
+// -------------------------------------------------------
+
 
 function GraphicSection() {
   return (
@@ -18,10 +22,10 @@ function GraphicSection() {
             </div>
 
             <div className="col-md-7">
-              <img src={img1} className="rounded thumb" alt=""/>
-              <img src={img2} className="rounded thumb" alt=""/>
-              <img src={img3} className="rounded thumb" alt=""/>
-              <img src={img4} className="rounded thumb" alt=""/>
+              <img src={crossroads7619} className="rounded thumb" alt=""/>
+              <img src={dingbatz102515} className="rounded thumb" alt=""/>
+              <img src={upcomingShows} className="rounded thumb" alt=""/>
+              <img src={henrietta12912} className="rounded thumb" alt=""/>
               <Link to="/graphic"><button type="button" className="view-btn">View More</button></Link>
             </div>
           </div>

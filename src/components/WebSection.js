@@ -1,10 +1,13 @@
 import React from "react";
 import "../styles/style.css";
-import password from "../images/password_generator.png";
-import planner from "../images/day_planner.png";
-import readMe from "../images/readMe_generator.png";
-import eTracker from "../images/employee_tracker.png";
 import { Link } from "react-router-dom";
+
+// ----------------------Images---------------------------------
+import fiveWire from "../images/fivewire.png";
+import burger from "../images/eat-the-burger.png";
+import weather from "../images/weather-app.png";
+import flightSaver from "../images/flight-saver.png";
+// -------------------------------------------------------
 
 function WebSection() {
   return (
@@ -19,10 +22,10 @@ function WebSection() {
           </div>
 
           <div className="col-md-7">
-              <img src={password} className="rounded thumb" alt=""/>
-              <img src={planner} className="rounded thumb" alt=""/>
-              <img src={readMe} className="rounded thumb" alt=""/>
-              <img src={eTracker} className="rounded thumb" alt=""/>
+              <a href="https://group5-proj2.herokuapp.com/" target="_blank"><img src={fiveWire} className="rounded thumb" alt=""/></a>
+              <a href="https://scibettas1.github.io/flightSaver/" target="_blank"><img src={flightSaver} className="rounded thumb" alt=""/></a>
+              <a href="https://eat-the-burger-scibetta.herokuapp.com/" target="_blank"><img src={burger} className="rounded thumb" alt=""/></a>
+              <a href="https://scibettas1.github.io/weather/" target="_blank"><img src={weather} className="rounded thumb" alt=""/></a>
               <Link to="/web"><button type="button" className="view-btn">View More</button></Link>
             </div>
         </div>
