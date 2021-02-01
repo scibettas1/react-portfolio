@@ -16,17 +16,19 @@ import weather from "../../images/weather-app.png";
 function Web() {
   return (
     <div>
-      <Banner pageTitle="Web Development Portfolio"/>
-      <div class="row row-padding">
-        <a href="https://group5-proj2.herokuapp.com/"><PortfolioItem image={fiveWire} alt=""/></a>
-        <a href="https://eat-the-burger-scibetta.herokuapp.com/"><PortfolioItem image={burger} alt=""/></a>
-        <a href="https://scibettas1.github.io/weather/"><PortfolioItem image={weather} alt=""/></a>
-        <PortfolioItem image={password} alt=""/>
-        <PortfolioItem image={planner} alt=""/>
-        <PortfolioItem image={readMe} alt=""/>
-        <PortfolioItem image={eTracker} alt=""/>
-        <PortfolioItem image="" alt=""/>
-        <PortfolioItem image="" alt=""/>
+      <Banner pageTitle="Web Development Portfolio" />
+      <div className="container">
+        <div class="row row-padding">
+          <a href="https://group5-proj2.herokuapp.com/"><PortfolioItem image={fiveWire} alt="" /></a>
+          <a href="https://eat-the-burger-scibetta.herokuapp.com/"><PortfolioItem image={burger} alt="" /></a>
+          <a href="https://scibettas1.github.io/weather/"><PortfolioItem image={weather} alt="" /></a>
+          <PortfolioItem image={password} alt="" />
+          <PortfolioItem image={planner} alt="" />
+          <PortfolioItem image={readMe} alt="" />
+          <PortfolioItem image={eTracker} alt="" />
+          <PortfolioItem image="" alt="" />
+          <PortfolioItem image="" alt="" />
+        </div>
       </div>
     </div>
   );

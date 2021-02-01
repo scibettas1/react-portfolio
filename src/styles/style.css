@@ -1,5 +1,6 @@
 body, .info1 {
     background: #d6cea6!important;
+    height: 100%;
 }
 .info1, .info2 {
     min-height: 500px;
