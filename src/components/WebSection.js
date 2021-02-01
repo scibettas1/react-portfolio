@@ -1,6 +1,9 @@
 import React from "react";
-import "../styles/style.css"
-import placeholder from "../images/placholder350.jpg"
+import "../styles/style.css";
+import password from "../images/password_generator.png";
+import planner from "../images/day_planner.png";
+import readMe from "../images/readMe_generator.png";
+import eTracker from "../images/employee_tracker.png";
 import { Link } from "react-router-dom";
 
 function WebSection() {
@@ -16,10 +19,10 @@ function WebSection() {
           </div>
 
           <div className="col-md-7">
-              <img src={placeholder} className="rounded thumb" alt=""/>
-              <img src={placeholder} className="rounded thumb" alt=""/>
-              <img src={placeholder} className="rounded thumb" alt=""/>
-              <img src={placeholder} className="rounded thumb" alt=""/>
+              <img src={password} className="rounded thumb" alt=""/>
+              <img src={planner} className="rounded thumb" alt=""/>
+              <img src={readMe} className="rounded thumb" alt=""/>
+              <img src={eTracker} className="rounded thumb" alt=""/>
               <Link to="/web"><button type="button" className="view-btn">View More</button></Link>
             </div>
         </div>
