@@ -7,15 +7,12 @@ import { Button, Modal } from "react-bootstrap"
 function ModalLaunch(props) {
     const [modalShow, setModalShow] = React.useState(false);
     const portfolioItem = props;
-    console.log(portfolioItem)
-
+    console.log(portfolioItem);
 
     return (
         <>
-
             <img src={props.image} alt={props.alt} className="rounded thumb" onClick={() => setModalShow(true)}/>
             
-
             <PortfolioModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
@@ -36,8 +33,8 @@ function ModalLaunch(props) {
                 </Modal.Header>
                 <Modal.Body>
                     {portfolioItem.description}
-                    <Button src={portfolioItem.link} />
-                    <Button src= {portfolioItem.repo} />
+                    <Button href={portfolioItem.link}  target="_blank" rel="noreferrer">Launch Application</Button>
+                    <Button href= {portfolioItem.repo}  target="_blank" rel="noreferrer">Visit Repository</Button>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button onClick={props.onHide}>Close</Button>
