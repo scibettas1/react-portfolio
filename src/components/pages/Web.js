@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Banner"
-import ModalLaunch from "../PortfolioItem"
+import ModalLaunchWeb from "../PortfolioItemWeb"
 
 
 // ----------------------Images----------------------------
@@ -19,13 +19,13 @@ function Web() {
       <Banner pageTitle="Web Development Portfolio" />
       <div className="container">
         <div class="row row-padding">
-          <ModalLaunch image={fiveWire} link="https://group5-proj2.herokuapp.com/" repo="" description="this is a description" alt="" />
-          <ModalLaunch image={burger} link="https://eat-the-burger-scibetta.herokuapp.com/" repo="" description="this is a description" alt="" />
-          <ModalLaunch image={weather} link="https://scibettas1.github.io/weather/" repo="" description="this is a description" alt="" />
-          <ModalLaunch image={password} link="" repo="" description="this is a description" alt="" />
-          <ModalLaunch image={planner} link="" repo="" description="this is a description" alt="" />
-          <ModalLaunch image={readMe} link="" repo="" description="this is a description" alt="" />
-          <ModalLaunch image={eTracker} link="" repo="" description="this is a description" alt="" />
+          <ModalLaunchWeb image={fiveWire} link="https://group5-proj2.herokuapp.com/" repo="" description="this is a description" alt="" />
+          <ModalLaunchWeb image={burger} link="https://eat-the-burger-scibetta.herokuapp.com/" repo="" description="this is a description" alt="" />
+          <ModalLaunchWeb image={weather} link="https://scibettas1.github.io/weather/" repo="" description="this is a description" alt="" />
+          <ModalLaunchWeb image={password} link="" repo="" description="this is a description" alt="" />
+          <ModalLaunchWeb image={planner} link="" repo="" description="this is a description" alt="" />
+          <ModalLaunchWeb image={readMe} link="" repo="" description="this is a description" alt="" />
+          <ModalLaunchWeb image={eTracker} link="" repo="" description="this is a description" alt="" />
         </div>
       </div>
     </div>

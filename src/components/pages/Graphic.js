@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Banner"
-import ModalLaunch from "../PortfolioItem";
+import ModalLaunchGraphic from "../PortfolioItemGraphic";
 
 // ----------------------Images---------------------------------
 import crossroads7619 from "../../images/crossroads7-6-19.jpg";
@@ -22,16 +22,16 @@ function Graphic() {
       <Banner pageTitle="Graphic Design Portfolio" />
       <div className="container">
         <div className="row row-padding">
-          <ModalLaunch image={crossroads7619} />
-          <ModalLaunch image={dingbatz102515} />
-          <ModalLaunch image={upcomingShows} />
-          <ModalLaunch image={henrietta12912} />
-          <ModalLaunch image={clubHouse} />
-          <ModalLaunch image={directions} />
-          <ModalLaunch image={endingDG} />
-          <ModalLaunch image={deadPonies} />
-          <ModalLaunch image={waverlyMenu} />
-          <ModalLaunch image={song} />
+          <ModalLaunchGraphic image={crossroads7619} description="this is a description" alt=""  />
+          <ModalLaunchGraphic image={dingbatz102515} description="this is a description" alt=""  />
+          <ModalLaunchGraphic image={upcomingShows} description="this is a description" alt=""  />
+          <ModalLaunchGraphic image={henrietta12912} description="this is a description" alt=""  />
+          <ModalLaunchGraphic image={clubHouse} description="this is a description" alt=""  />
+          <ModalLaunchGraphic image={directions} description="this is a description" alt=""  />
+          <ModalLaunchGraphic image={endingDG} description="this is a description" alt=""  />
+          <ModalLaunchGraphic image={deadPonies} description="this is a description" alt=""  />
+          <ModalLaunchGraphic image={waverlyMenu} description="this is a description" alt=""  />
+          <ModalLaunchGraphic image={song} description="this is a description" alt=""  />
         </div>
       </div>
     </div>
