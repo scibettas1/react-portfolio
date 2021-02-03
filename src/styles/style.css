@@ -4,21 +4,26 @@ html {
 body {
     min-height: 100%;
 }
-
+.navbar-light .navbar-brand {
+    color: #faead7;
+}
 
 body, .info1 {
-    background: #d6cea6!important;
+    background: #e4d2ba!important;
 }
 .info1, .info2 {
     min-height: 500px;
 }
-.info2 {
+.navbar, .info2 {
     background: #2f4f4f;
 }
 
-p, h1, h2, h3, h4, h5, .view-btn {
+p, h1, h2, h3, h4, h5, .navbar-nav, .navbar-light, .navbar-brand, .nav-link, .view-btn {
     font-family: 'Roboto Mono', monospace;
     color: #FAEBD7;
+}
+.navbar-light, .navbar-brand, .nav-link {
+    color: #FAEBD7!important;
 }
 h3, h4 {
     color: #2f4f4f;
@@ -53,6 +58,12 @@ h5 {
 
 .row {
     padding-bottom: 48px;
+}
+.navbar-nav {
+    line-height: 2.5;
+}
+.navbar-toggler {
+    border-color: #faebd7!important;
 }
 .hero, .banner {
     min-height: 900px;
@@ -99,7 +110,7 @@ h5 {
 .view-btn {
     display: inline-block;
     font-weight: 400;
-    color: #212529;
+    color: #212529!important;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;

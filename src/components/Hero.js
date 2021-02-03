@@ -34,7 +34,7 @@ function Hero() {
             <div className="col-md-5">
               <p>Sam Scibetta graduated from William Paterson University with a BFA in Fine Art, and also attended the Art
                 Institute of Pittsburgh.
-                She is currenlty studying full-stack web development at Rutgers Coding Bootcamp.
+                She is currently studying full-stack web development at Rutgers Coding Bootcamp.
                 She has 10+ years of graphic design experience.</p>
             </div>
           </div>
