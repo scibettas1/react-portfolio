@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Banner"
-import PortfolioItem from "../PortfolioItem"
+import ModalLaunch from "../PortfolioItem"
 
 
 // ----------------------Images----------------------------
@@ -19,15 +19,13 @@ function Web() {
       <Banner pageTitle="Web Development Portfolio" />
       <div className="container">
         <div class="row row-padding">
-          <a href="https://group5-proj2.herokuapp.com/"><PortfolioItem image={fiveWire} alt="" /></a>
-          <a href="https://eat-the-burger-scibetta.herokuapp.com/"><PortfolioItem image={burger} alt="" /></a>
-          <a href="https://scibettas1.github.io/weather/"><PortfolioItem image={weather} alt="" /></a>
-          <PortfolioItem image={password} alt="" />
-          <PortfolioItem image={planner} alt="" />
-          <PortfolioItem image={readMe} alt="" />
-          <PortfolioItem image={eTracker} alt="" />
-          <PortfolioItem image="" alt="" />
-          <PortfolioItem image="" alt="" />
+          <ModalLaunch image={fiveWire} alt="" />
+          <ModalLaunch image={burger} alt="" />
+          <ModalLaunch image={weather} alt="" />
+          <ModalLaunch image={password} alt="" />
+          <ModalLaunch image={planner} alt="" />
+          <ModalLaunch image={readMe} alt="" />
+          <ModalLaunch image={eTracker} alt="" />
         </div>
       </div>
     </div>
@@ -35,3 +33,9 @@ function Web() {
 }
 
 export default Web;
+
+
+
+{/* <a href="https://group5-proj2.herokuapp.com/"><PortfolioItem image={fiveWire} alt="" /></a>
+<a href="https://eat-the-burger-scibetta.herokuapp.com/"><PortfolioItem image={burger} alt="" /></a>
+<a href="https://scibettas1.github.io/weather/"><PortfolioItem image={weather} alt="" /></a> */}

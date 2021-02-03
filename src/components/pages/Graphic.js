@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Banner"
-import PortfolioItem from "../PortfolioItem";
+import ModalLaunch from "../PortfolioItem";
 
 // ----------------------Images---------------------------------
 import crossroads7619 from "../../images/crossroads7-6-19.jpg";
@@ -22,16 +22,16 @@ function Graphic() {
       <Banner pageTitle="Graphic Design Portfolio" />
       <div className="container">
         <div class="row row-padding">
-          <PortfolioItem image={crossroads7619} />
-          <PortfolioItem image={dingbatz102515} />
-          <PortfolioItem image={upcomingShows} />
-          <PortfolioItem image={henrietta12912} />
-          <PortfolioItem image={clubHouse} />
-          <PortfolioItem image={directions} />
-          <PortfolioItem image={endingDG} />
-          <PortfolioItem image={deadPonies} />
-          <PortfolioItem image={waverlyMenu} />
-          <PortfolioItem image={song} />
+          <ModalLaunch image={crossroads7619} />
+          <ModalLaunch image={dingbatz102515} />
+          <ModalLaunch image={upcomingShows} />
+          <ModalLaunch image={henrietta12912} />
+          <ModalLaunch image={clubHouse} />
+          <ModalLaunch image={directions} />
+          <ModalLaunch image={endingDG} />
+          <ModalLaunch image={deadPonies} />
+          <ModalLaunch image={waverlyMenu} />
+          <ModalLaunch image={song} />
         </div>
       </div>
     </div>
