@@ -22,10 +22,10 @@ function WebSection() {
           </div>
 
           <div className="col-md-7">
-              <a href="https://group5-proj2.herokuapp.com/" target="_blank"><img src={fiveWire} className="rounded thumb" alt=""/></a>
-              <a href="https://scibettas1.github.io/flightSaver/" target="_blank"><img src={flightSaver} className="rounded thumb" alt=""/></a>
-              <a href="https://eat-the-burger-scibetta.herokuapp.com/" target="_blank"><img src={burger} className="rounded thumb" alt=""/></a>
-              <a href="https://scibettas1.github.io/weather/" target="_blank"><img src={weather} className="rounded thumb" alt=""/></a>
+              <a href="https://group5-proj2.herokuapp.com/" target="_blank" rel="noreferrer"><img src={fiveWire} className="rounded thumb" alt=""/></a>
+              <a href="https://scibettas1.github.io/flightSaver/" target="_blank" rel="noreferrer"><img src={flightSaver} className="rounded thumb" alt=""/></a>
+              <a href="https://eat-the-burger-scibetta.herokuapp.com/" target="_blank" rel="noreferrer"><img src={burger} className="rounded thumb" alt=""/></a>
+              <a href="https://scibettas1.github.io/weather/" target="_blank" rel="noreferrer"><img src={weather} className="rounded thumb" alt=""/></a>
               <Link to="/web"><button type="button" className="view-btn">View More</button></Link>
             </div>
         </div>

@@ -21,7 +21,7 @@ function Graphic() {
     <div>
       <Banner pageTitle="Graphic Design Portfolio" />
       <div className="container">
-        <div class="row row-padding">
+        <div className="row row-padding">
           <ModalLaunch image={crossroads7619} />
           <ModalLaunch image={dingbatz102515} />
           <ModalLaunch image={upcomingShows} />

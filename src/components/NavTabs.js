@@ -25,7 +25,7 @@ function NavTabs() {
             </NavItem>
 
             <NavItem>
-              <NavLink to={resume} target="_blank"><button type="button" className="view-btn">Download Resume</button></NavLink>
+              <NavLink to={resume} target="_blank" rel="noreferrer"><button type="button" className="view-btn">Download Resume</button></NavLink>
             </NavItem>
 
           </Nav>
@@ -37,10 +37,3 @@ function NavTabs() {
 
 export default NavTabs;
 
-
-
-{/* <NavLink to="/">Home</NavLink>
-<NavLink to="/web">Web Development</NavLink>
-<NavLink to="/graphic">Graphic Design</NavLink>
-<NavLink divider />
-<NavLink to="/graphic"><button type="button" className="view-btn">Download Resume</button></NavLink> */}

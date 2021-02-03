@@ -26,9 +26,9 @@ function Hero() {
               <h1>Sam Scibetta<br />
                 Graphic &amp; Web<br />
                 Designer</h1>
-                <a href="https://www.facebook.com/int3stine.no0se/" target="_blank"><img src={facebook} className="social-icon" alt="facebook logo"/></a>
-                <a href="https://www.linkedin.com/in/samantha-scibetta/" target="_blank"><img src={linkedin} className="social-icon" alt="linkedin logo"/></a>
-                <a href="https://github.com/scibettas1" target="_blank"><img src={github} className="social-icon" alt="github logo"/></a>
+                <a href="https://www.facebook.com/int3stine.no0se/" target="_blank" rel="noreferrer"><img src={facebook} className="social-icon" alt="facebook logo"/></a>
+                <a href="https://www.linkedin.com/in/samantha-scibetta/" target="_blank" rel="noreferrer"><img src={linkedin} className="social-icon" alt="linkedin logo"/></a>
+                <a href="https://github.com/scibettas1" target="_blank" rel="noreferrer"><img src={github} className="social-icon" alt="github logo"/></a>
             </div>
 
             <div className="col-md-5">

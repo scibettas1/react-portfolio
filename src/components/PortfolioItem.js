@@ -2,16 +2,6 @@ import React from "react";
 import "../styles/style.css"
 import { Button, Modal } from "react-bootstrap"
 
-function PortfolioItem(props) {
-
-    return (
-        <div>
-            <img src={props.image} data-toggle="modal" data-target={"#" + props.target} alt={props.alt} className="rounded thumb" />
-        </div>
-
-    );
-}
-
 
 function PortfolioModal(props) {
     return (
