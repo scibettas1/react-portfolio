@@ -22,10 +22,10 @@ function GraphicSection() {
             </div>
 
             <div className="col-md-7">
-              <img src={crossroads7619} className="rounded thumb" alt=""/>
-              <img src={dingbatz102515} className="rounded thumb" alt=""/>
-              <img src={upcomingShows} className="rounded thumb" alt=""/>
-              <img src={henrietta12912} className="rounded thumb" alt=""/>
+              <img src={crossroads7619} className="rounded thumb shadow" alt=""/>
+              <img src={dingbatz102515} className="rounded thumb shadow" alt=""/>
+              <img src={upcomingShows} className="rounded thumb shadow" alt=""/>
+              <img src={henrietta12912} className="rounded thumb shadow" alt=""/>
               <Link to="/graphic"><button type="button" className="view-btn">View More</button></Link>
             </div>
           </div>

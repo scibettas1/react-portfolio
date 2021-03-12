@@ -77,6 +77,17 @@ h5 {
 .banner {
     min-height: 300px;
 }
+.circle {
+    max-width: 25px;
+    float: left;
+}
+.pop{
+    z-index: 1040;
+    position: fixed;
+    top: 60px;
+    left: 40%;
+    max-height: 25px;
+}
 .social-icon {
     height: 40px;
     width:auto;
@@ -95,12 +106,13 @@ h5 {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+    border: 3px solid #ff4000;
 }
 
 .thumb {
-    padding: .25rem;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
+    /* padding: .25rem;
+    background-color: #fff; */
+    /* border: 1px solid #dee2e6; */
     max-width: 100%;
     object-fit: cover;
     vertical-align: middle;
@@ -126,6 +138,11 @@ h5 {
     border: 1px solid #ff4000;
     margin: 10px;
 }
+footer {
+    background-color: #003055;
+    border-top: 3px solid #ff4000;
+    color:#F2F3F5;
+}
 
 @media (max-width: 576px) {
 
@@ -134,12 +151,15 @@ h5 {
       font-size: 53px!important;
       line-height: 53px!important;
       font-weight: 500!important;
-      -webkit-text-stroke: 3px!important;
+      -webkit-text-stroke: 3px #ff4000!important;
       bottom: 12px!important;
     }
 
     h4,
     h5 {
       margin: 0px 20px 50px 20px;
+    }
+    .hideOnMobile {
+        display:none!important;
     }
 }

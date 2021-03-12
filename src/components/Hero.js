@@ -6,6 +6,7 @@ import profile from "../images/profile.jpg";
 import facebook from "../images/facebook.png";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
+import circle from "../images/circle.png";
 // -------------------------------------------------------
 
 
@@ -15,7 +16,15 @@ function Hero() {
       <div className="hero">
         <div className="container">
           <div className="row">
-            <div className="col-md-7"></div>
+          <div className="col-md-2"></div>
+            <div className="col-md-5">
+            <div className="row"></div>
+            <div className="row hideOnMobile"></div>
+              <div className="row hideOnMobile"><img src={circle} className="circle hideOnMobile" alt="circle"/></div>
+              <div className="row hideOnMobile"><img src={circle} className="circle hideOnMobile" alt="circle"/></div>
+              <div className="row hideOnMobile"><img src={circle} className="circle hideOnMobile" alt="circle"/></div>
+              <div className="row hideOnMobile"><img src={circle} className="circle hideOnMobile" alt="circle"/></div>
+            </div>
             <div className="col-md-5">
               <img src={profile} className="rounded-circle profile-img" alt="profile sam scibetta"/>
             </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../Banner"
 import ModalLaunchGraphic from "../PortfolioItemGraphic";
+import Footer from "../Footer"
 
 // ----------------------Images---------------------------------
 import crossroads7619 from "../../images/crossroads7-6-19.jpg";
@@ -34,6 +35,7 @@ function Graphic() {
           <ModalLaunchGraphic image={song} description="this is a description" alt=""  />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

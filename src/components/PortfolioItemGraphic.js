@@ -11,7 +11,7 @@ function ModalLaunchGraphic(props) {
 
     return (
         <>
-            <img src={props.image} alt={props.alt} className="rounded thumb" onClick={() => setModalShow(true)}/>
+            <img src={props.image} alt={props.alt} className="rounded thumb shadow" onClick={() => setModalShow(true)}/>
             
             <PortfolioModal
                 show={modalShow}

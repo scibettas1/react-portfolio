@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../Banner"
 import ModalLaunchWeb from "../PortfolioItemWeb"
+import Footer from "../Footer"
 
 
 // ----------------------Images----------------------------
@@ -28,6 +29,7 @@ function Web() {
           <ModalLaunchWeb image={eTracker} link="" repo="" description="this is a description" alt="" />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

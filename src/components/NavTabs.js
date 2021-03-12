@@ -1,12 +1,15 @@
 import React from "react";
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 import { NavLink } from "react-router-dom";
-import resume from "../images/Samantha_Scibetta_resume2020.pdf"
+import resume from "../images/Samantha_Scibetta_resume2020_Redacted.pdf"
+
+import pop from "../images/lolipop.png";
 
 function NavTabs() {
 
   return (
     <div>
+      <img src={pop} className="pop" alt="circle line design"/>
       <Navbar fixed="top" bg="#2f4f4f" expand="lg">
         <Navbar.Brand>Sam Scibetta's Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
