@@ -4,29 +4,26 @@ html {
 body {
     min-height: 100%;
 }
-.navbar-light .navbar-brand {
-    color: #faead7;
-}
 
 body, .info1 {
-    background: #e4d2ba!important;
+    background: #F2F3F5!important;
 }
 .info1, .info2 {
     min-height: 500px;
 }
 .navbar, .info2 {
-    background: #2f4f4f;
+    background: #003055;
 }
 
 p, h1, h2, h3, h4, h5, .navbar-nav, .navbar-light, .navbar-brand, .nav-link, .view-btn {
     font-family: 'Roboto Mono', monospace;
-    color: #FAEBD7;
+    color: #F2F3F5;
 }
 .navbar-light, .navbar-brand, .nav-link {
-    color: #FAEBD7!important;
+    color: #F2F3F5!important;
 }
 h3, h4 {
-    color: #2f4f4f;
+    color: #003055;
 }
 
 h1 {
@@ -39,14 +36,14 @@ h3 {
     font-size: 120px!important;
     line-height: 120px!important;
     -webkit-text-fill-color: transparent!important;
-    -webkit-text-stroke: 5px #FAEBD7;
+    -webkit-text-stroke: 5px #ff4000;
     /* this overlap is intentional */
     position:relative;
     bottom: 30px;
 }
 
 h3 {
-    -webkit-text-stroke: 5px #2f4f4f;
+    -webkit-text-stroke: 5px #003055;
 }
 
 /* bootstrap will overide the custom css without the !important */
@@ -63,11 +60,16 @@ h5 {
     line-height: 2.5;
 }
 .navbar-toggler {
-    border-color: #faebd7!important;
+    border-color: #ff4000!important;
 }
 .hero, .banner {
     min-height: 900px;
-    background-image: url(../images/hero.jpg);
+    background-image: linear-gradient(
+      to bottom,
+      #0030557e,
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -120,8 +122,8 @@ h5 {
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    background-color: #FAEBD7;
-    border: 1px solid #faead7;
+    background-color: #ff4000;
+    border: 1px solid #ff4000;
     margin: 10px;
 }
 
