@@ -18,7 +18,7 @@ function Web() {
   return (
     <div>
       <Banner pageTitle="Web Development Portfolio" />
-      <div className="container">
+      <div className="container pushFooter">
         <div class="row row-padding">
           <ModalLaunchWeb image={fiveWire} link="https://group5-proj2.herokuapp.com/" repo="" description="this is a description" alt="" />
           <ModalLaunchWeb image={burger} link="https://eat-the-burger-scibetta.herokuapp.com/" repo="" description="this is a description" alt="" />
