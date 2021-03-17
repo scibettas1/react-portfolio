@@ -32,10 +32,11 @@ function ModalLaunchGraphic(props) {
                     <img src={portfolioItem.image} className="img-fluid" alt={portfolioItem.alt} />
                 </Modal.Header>
                 <Modal.Body>
+                <h3>{portfolioItem.title}</h3>
                     {portfolioItem.description}
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button onClick={props.onHide}>Close</Button>
+                    <button className="view-btn" onClick={props.onHide}>Close</button>
                 </Modal.Footer>
             </Modal>
         );

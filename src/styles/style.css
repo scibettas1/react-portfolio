@@ -32,7 +32,7 @@ h1 {
 /* bootstrap will overide the custom css without the !important */
 h2 {
     font-weight: 900!important;
-    font-size: 120px!important;
+    font-size: 160px!important;
     line-height: 120px!important;
     -webkit-text-fill-color: transparent!important;
     -webkit-text-stroke: 5px #ff4000;
@@ -72,6 +72,9 @@ h5 {
 }
 .banner {
     min-height: 300px;
+}
+.container {
+    max-width: 1500px!important;
 }
 .circle {
     max-width: 25px;
@@ -113,8 +116,8 @@ h5 {
     object-fit: cover;
     vertical-align: middle;
     margin: 10px;
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
 }
 /* bootstrap will overide the custom css without the !important */
 .view-btn {

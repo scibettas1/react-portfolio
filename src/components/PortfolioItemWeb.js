@@ -28,16 +28,17 @@ function ModalLaunchWeb(props) {
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
             >
-                <Modal.Header closeButton>
+                <Modal.Header>
                     <img src={portfolioItem.image} className="img-fluid" alt={portfolioItem.alt} />
                 </Modal.Header>
                 <Modal.Body>
-                    {portfolioItem.description}
-                    <Button href={portfolioItem.link}  target="_blank" rel="noreferrer">Launch Application</Button>
-                    <Button href= {portfolioItem.repo}  target="_blank" rel="noreferrer">Visit Repository</Button>
+                    <h3>{portfolioItem.title}</h3>
+                    {portfolioItem.description}<br />
+                    <a href={portfolioItem.link} target="_blank" rel="noreferrer"><button className="view-btn">Launch Application</button></a>
+                    <a href={portfolioItem.repo}  target="_blank" rel="noreferrer"><button className="view-btn">Visit Repository</button></a>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button onClick={props.onHide}>Close</Button>
+                    <button className="view-btn" onClick={props.onHide}>Close</button>
                 </Modal.Footer>
             </Modal>
         );
